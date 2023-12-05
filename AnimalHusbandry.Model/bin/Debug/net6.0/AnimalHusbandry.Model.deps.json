@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AnimalHusbandry.Model/1.0.0": {
+        "runtime": {
+          "AnimalHusbandry.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AnimalHusbandry.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

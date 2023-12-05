@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a3499e7c-2aeb-480a-808a-4492419aed1a": {
+      "ProjectGuid": "a3499e7c-2aeb-480a-808a-4492419aed1a",
+      "DisplayName": "AnimalHusbandry",
+      "ColorIndex": 0
+    },
+    "a2ed62bf-4d1a-493e-9a05-68b9d3ca29c3": {
+      "ProjectGuid": "a2ed62bf-4d1a-493e-9a05-68b9d3ca29c3",
+      "DisplayName": "AnimalHusbandry.Model",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

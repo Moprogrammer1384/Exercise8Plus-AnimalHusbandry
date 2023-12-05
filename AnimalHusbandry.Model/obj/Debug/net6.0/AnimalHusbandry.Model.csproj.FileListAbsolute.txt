@@ -1,0 +1,12 @@
+E:\Programming\Collage Practices\AnimalHusbandry.Model\bin\Debug\net6.0\AnimalHusbandry.Model.deps.json
+E:\Programming\Collage Practices\AnimalHusbandry.Model\bin\Debug\net6.0\AnimalHusbandry.Model.dll
+E:\Programming\Collage Practices\AnimalHusbandry.Model\bin\Debug\net6.0\ref\AnimalHusbandry.Model.dll
+E:\Programming\Collage Practices\AnimalHusbandry.Model\bin\Debug\net6.0\AnimalHusbandry.Model.pdb
+E:\Programming\Collage Practices\AnimalHusbandry.Model\obj\Debug\net6.0\AnimalHusbandry.Model.csproj.AssemblyReference.cache
+E:\Programming\Collage Practices\AnimalHusbandry.Model\obj\Debug\net6.0\AnimalHusbandry.Model.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\Collage Practices\AnimalHusbandry.Model\obj\Debug\net6.0\AnimalHusbandry.Model.AssemblyInfoInputs.cache
+E:\Programming\Collage Practices\AnimalHusbandry.Model\obj\Debug\net6.0\AnimalHusbandry.Model.AssemblyInfo.cs
+E:\Programming\Collage Practices\AnimalHusbandry.Model\obj\Debug\net6.0\AnimalHusbandry.Model.csproj.CoreCompileInputs.cache
+E:\Programming\Collage Practices\AnimalHusbandry.Model\obj\Debug\net6.0\AnimalHusbandry.Model.dll
+E:\Programming\Collage Practices\AnimalHusbandry.Model\obj\Debug\net6.0\ref\AnimalHusbandry.Model.dll
+E:\Programming\Collage Practices\AnimalHusbandry.Model\obj\Debug\net6.0\AnimalHusbandry.Model.pdb
