@@ -17,9 +17,7 @@ void GenerateCows()
         foreach (var cow in _cows)
         {
             Cows.Add(cow);
-        }
-
-        Cow.CowsNumber = Cows.Count;
+        }  
     }
 }
 
@@ -36,7 +34,6 @@ void GenerateSheeps()
             Sheeps.Add(sheep);
         }
 
-        Sheep.SheepsNumber = Sheeps.Count;
     }
 }
 
@@ -189,17 +186,3 @@ void MeatIncome()
 
 SelectOption();
 Console.ReadKey();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
