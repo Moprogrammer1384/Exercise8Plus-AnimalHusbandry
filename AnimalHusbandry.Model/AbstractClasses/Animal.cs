@@ -9,7 +9,7 @@ using AnimalHusbandry.Model.Classes;
 
 namespace AnimalHusbandry.Model.AbstractClasses
 {
-    public abstract class AnimalBluePrint
+    public abstract class Animal
     {
         public int ID { get; init; }
 
@@ -17,7 +17,7 @@ namespace AnimalHusbandry.Model.AbstractClasses
 
         public DateTime BirthDate { get; init; }
 
-        public int MaxLife { get; set; }
+        public int MaxLife { get; init; }
 
         public List<IAnimalEnvironment> Environments { get; set; }
 
@@ -40,5 +40,7 @@ namespace AnimalHusbandry.Model.AbstractClasses
         public abstract decimal CostPerDay();
 
         public abstract decimal IncomePerDay();
+
+        public abstract decimal MeatIncome(decimal MeatPrice);
     }
 }

@@ -14,7 +14,7 @@ namespace AnimalHusbandry
             return Math.Round(random.NextDouble() * (maximum - minimum) + minimum);
         }
 
-        public static string GenderConverter(bool Gender) 
+        public static string GenderConverter(bool Gender)
         {
             if (Gender)
                 return "Male";
@@ -30,16 +30,16 @@ namespace AnimalHusbandry
                 case 1:
                     FontColor = ConsoleColor.Red;
                     break;
-                case 1.5:
+                case 0.75:
                     FontColor = ConsoleColor.Magenta;
                     break;
-                case 2:
+                case 0.5:
                     FontColor = ConsoleColor.Yellow;
                     break;
-                case 2.5:
+                case 0.25:
                     FontColor = ConsoleColor.Blue;
                     break;
-                case 3:
+                case 0:
                     FontColor = ConsoleColor.Green;
                     break;
             }

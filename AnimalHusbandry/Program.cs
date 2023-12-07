@@ -2,13 +2,8 @@
 using AnimalHusbandry.Model.Classes;
 using AnimalHusbandry.Model.Structs;
 
-
-List<AnimalEnvironment> Environments;
 List<Cow> Cows = new List<Cow>();
 List<Sheep> Sheeps = new List<Sheep>();
-Random random = new Random();
-DateTime Date = DateTime.Today;
-
 
 
 void GenerateCows()
@@ -23,6 +18,8 @@ void GenerateCows()
         {
             Cows.Add(cow);
         }
+
+        Cow.CowsNumber = Cows.Count;
     }
 }
 
@@ -38,6 +35,8 @@ void GenerateSheeps()
         {
             Sheeps.Add(sheep);
         }
+
+        Sheep.SheepsNumber = Sheeps.Count;
     }
 }
 
@@ -48,7 +47,8 @@ void Welcome()
 2. Show daily cost of animals.
 3. Show kill priority of animals.
 4. Show daily profit of animals.
-5. Exit
+5. Show meat profit of animals.
+6. Exit
 ";
     Console.WriteLine("************************************");
     Console.WriteLine(menu);
@@ -78,6 +78,9 @@ void SelectOption()
                 Profit();
                 break;
             case "5":
+                MeatIncome();
+                break;
+            case "6":
                 Environment.Exit(0);
                 break;
             default:
@@ -85,6 +88,7 @@ void SelectOption()
                 break;
 
         }
+        Console.WriteLine($"Total Number Of Animals: {Cows.Count + Sheeps.Count}");
     } while (true);
 }
 
@@ -92,7 +96,7 @@ void KillPriority()
 {
     Console.WriteLine("Kill Priority Of Cows: ");
 
-    foreach (Cow cow in Cows.OrderBy(c => c.KillPriority()))
+    foreach (Cow cow in Cows.OrderByDescending(c => c.KillPriority()))
     {
         Console.ForegroundColor = Tools.Color(cow.KillPriority());
         Console.WriteLine("Name:{0,12} KillPriority:{1,3} Gender:{2,6}", cow.Name, cow.KillPriority(), Tools.GenderConverter(cow.Gender));
@@ -101,7 +105,7 @@ void KillPriority()
     Console.ForegroundColor = ConsoleColor.White;
     Console.WriteLine("Kill Priority Of Sheeps: ");
 
-    foreach (Sheep sheep in Sheeps.OrderBy(s => s.KillPriority()))
+    foreach (Sheep sheep in Sheeps.OrderByDescending(s => s.KillPriority()))
     {
         Console.ForegroundColor = Tools.Color(sheep.KillPriority());
         Console.WriteLine("Name:{0,12} KillPriority:{1,3} Gender:{2,6}", sheep.Name, sheep.KillPriority(), Tools.GenderConverter(sheep.Gender));
@@ -164,10 +168,26 @@ void Profit()
     }
 }
 
-Console.WriteLine("Let's Start");
+void MeatIncome()
+{
+    Console.WriteLine("Meat Income Of Cows :");
+
+    foreach (Cow cow in Cows.OrderByDescending(c => c.MeatIncome(350000m)))
+    {
+        Console.WriteLine("Name:{0,12} MeatIncome:{1,3:N} Gender:{2,6}", cow.Name, cow.MeatIncome(350000m), Tools.GenderConverter(cow.Gender));
+    }
+
+    Console.WriteLine("=========================================================");
+
+    Console.WriteLine("Meat Income Of Sheeps :");
+
+    foreach (Sheep sheep in Sheeps.OrderByDescending(s => s.MeatIncome(500000m)))
+    {
+        Console.WriteLine("Name:{0,12} MeatIncome:{1,3:N} Gender:{2,6}", sheep.Name, sheep.MeatIncome(500000m), Tools.GenderConverter(sheep.Gender));
+    }
+}
+
 SelectOption();
-
-
 Console.ReadKey();
 
 
