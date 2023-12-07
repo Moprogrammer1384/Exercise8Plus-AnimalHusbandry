@@ -164,6 +164,7 @@ void Profit()
     }
 }
 
+Console.WriteLine("Let's Start");
 SelectOption();
 
 

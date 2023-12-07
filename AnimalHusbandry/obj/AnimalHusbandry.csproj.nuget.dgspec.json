@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Programming\\Collage Practices\\AnimalHusbandry-Clone\\AnimalHusbandry\\AnimalHusbandry.csproj": {}
+    "E:\\Programming\\Collage Practices\\Clone-Test\\AnimalHusbandry\\AnimalHusbandry.csproj": {}
   },
   "projects": {
-    "E:\\Programming\\Collage Practices\\AnimalHusbandry-Clone\\AnimalHusbandry.Model\\AnimalHusbandry.Model.csproj": {
+    "E:\\Programming\\Collage Practices\\Clone-Test\\AnimalHusbandry.Model\\AnimalHusbandry.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Programming\\Collage Practices\\AnimalHusbandry-Clone\\AnimalHusbandry.Model\\AnimalHusbandry.Model.csproj",
+        "projectUniqueName": "E:\\Programming\\Collage Practices\\Clone-Test\\AnimalHusbandry.Model\\AnimalHusbandry.Model.csproj",
         "projectName": "AnimalHusbandry.Model",
-        "projectPath": "E:\\Programming\\Collage Practices\\AnimalHusbandry-Clone\\AnimalHusbandry.Model\\AnimalHusbandry.Model.csproj",
+        "projectPath": "E:\\Programming\\Collage Practices\\Clone-Test\\AnimalHusbandry.Model\\AnimalHusbandry.Model.csproj",
         "packagesPath": "C:\\Users\\MA\\.nuget\\packages\\",
-        "outputPath": "E:\\Programming\\Collage Practices\\AnimalHusbandry-Clone\\AnimalHusbandry.Model\\obj\\",
+        "outputPath": "E:\\Programming\\Collage Practices\\Clone-Test\\AnimalHusbandry.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
@@ -63,14 +63,14 @@
         }
       }
     },
-    "E:\\Programming\\Collage Practices\\AnimalHusbandry-Clone\\AnimalHusbandry\\AnimalHusbandry.csproj": {
+    "E:\\Programming\\Collage Practices\\Clone-Test\\AnimalHusbandry\\AnimalHusbandry.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Programming\\Collage Practices\\AnimalHusbandry-Clone\\AnimalHusbandry\\AnimalHusbandry.csproj",
+        "projectUniqueName": "E:\\Programming\\Collage Practices\\Clone-Test\\AnimalHusbandry\\AnimalHusbandry.csproj",
         "projectName": "AnimalHusbandry",
-        "projectPath": "E:\\Programming\\Collage Practices\\AnimalHusbandry-Clone\\AnimalHusbandry\\AnimalHusbandry.csproj",
+        "projectPath": "E:\\Programming\\Collage Practices\\Clone-Test\\AnimalHusbandry\\AnimalHusbandry.csproj",
         "packagesPath": "C:\\Users\\MA\\.nuget\\packages\\",
-        "outputPath": "E:\\Programming\\Collage Practices\\AnimalHusbandry-Clone\\AnimalHusbandry\\obj\\",
+        "outputPath": "E:\\Programming\\Collage Practices\\Clone-Test\\AnimalHusbandry\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
@@ -92,8 +92,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Programming\\Collage Practices\\AnimalHusbandry-Clone\\AnimalHusbandry.Model\\AnimalHusbandry.Model.csproj": {
-                "projectPath": "E:\\Programming\\Collage Practices\\AnimalHusbandry-Clone\\AnimalHusbandry.Model\\AnimalHusbandry.Model.csproj"
+              "E:\\Programming\\Collage Practices\\Clone-Test\\AnimalHusbandry.Model\\AnimalHusbandry.Model.csproj": {
+                "projectPath": "E:\\Programming\\Collage Practices\\Clone-Test\\AnimalHusbandry.Model\\AnimalHusbandry.Model.csproj"
               }
             }
           }

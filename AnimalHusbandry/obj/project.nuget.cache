@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+QOLStV8ZNjrKFzbozebmDPiHkzIolfmMUXJag25g/vkCgi6PAZWBrId1gJ0fRmi5AxlY5lVUk4nrG3FihRvrQ==",
+  "dgSpecHash": "s4/eppsS1U4QzmHT0Tp2tqqdE7lGwIZBMDGIkHAuNGc99Omq0UMrzkR13rEXGhK7XwdXWrxJ/vRe4jBisBBzFA==",
   "success": true,
-  "projectFilePath": "E:\\Programming\\Collage Practices\\AnimalHusbandry-Clone\\AnimalHusbandry\\AnimalHusbandry.csproj",
+  "projectFilePath": "E:\\Programming\\Collage Practices\\Clone-Test\\AnimalHusbandry\\AnimalHusbandry.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MA\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
